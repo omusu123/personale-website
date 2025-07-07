@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Page not found - Ernest Charles' Portfolio">
+    <meta name="theme-color" content="#0ea5e9">
+    <title>Page Not Found | Ernest Charles</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #111827;
+            color: white;
+        }
+        .glow {
+            animation: glow 2s ease-in-out infinite alternate;
+        }
+        @keyframes glow {
+            from {
+                text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0ea5e9, 0 0 20px #0ea5e9;
+            }
+            to {
+                text-shadow: 0 0 10px #fff, 0 0 20px #0ea5e9, 0 0 30px #0ea5e9, 0 0 40px #0ea5e9;
+            }
+        }
+    </style>
+</head>
+<body class="min-h-screen flex items-center justify-center px-4">
+    <div class="text-center">
+        <h1 class="text-6xl md:text-9xl font-bold mb-4 glow">404</h1>
+        <h2 class="text-2xl md:text-4xl font-semibold mb-6">Oops! Page Not Found</h2>
+        <p class="text-gray-300 mb-8 max-w-md mx-auto">The page you're looking for doesn't exist or has been moved.</p>
+        <div class="space-x-4">
+            <a href="/" class="inline-block bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-medium transition-colors">
+                Go to Homepage
+            </a>
+            <a href="#contact" class="inline-block border border-blue-600 text-blue-400 hover:bg-blue-900/30 px-6 py-3 rounded-lg font-medium transition-colors">
+                Contact Me
+            </a>
+        </div>
+        
+        <!-- Animated decoration -->
+        <div class="mt-16 opacity-30">
+            <div class="inline-block animate-bounce">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 text-blue-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M9.172 16.172a4 4 0 015.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
