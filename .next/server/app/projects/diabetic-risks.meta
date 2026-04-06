@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/projects/layout,_N_T_/projects/diabetic-risks/layout,_N_T_/projects/diabetic-risks/page,_N_T_/projects/diabetic-risks"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/projects/diabetic-risks/__PAGE__",
+    "/projects/diabetic-risks",
+    "/projects",
+    "/_index",
+    "/_head"
+  ]
+}
